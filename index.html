@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!-- This page follows HTML5 standards -->
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="show my skills and my projects">
         <meta name="author" content="Mariam Ayman">
+        <link rel="stylesheet" href="CSS_Folder/style.css">
     </head>
     <body>
 
@@ -25,9 +26,11 @@
 
         <main>
             <section id="Home">
-                <h2>Welome to my &quot;portfolio&quot;</h2>
-                <p>Hello! I'm <strong>Mariam</strong>, a <em>web developer</em>. This is my portfolio.</p>
-                <figure>
+                <div class="home-txt">
+                    <h2 class="home-header">Welome to my &quot;portfolio&quot;</h2>
+                    <p class="home-par">Hello! I'm <strong>Mariam</strong>, a <em>web developer</em>. This is my portfolio.</p>
+                </div>
+                <figure class="home-img">
                     <img src="assets/images/portfolio.jpg" alt="Mariam's image">
                     <figcaption>Mariam Ayman &ndash; Web developer</figcaption>
                 </figure>
@@ -35,11 +38,13 @@
             <hr>
 
             <section id="About">
-                <h2>About me</h2>
-                <p>My journey with computers began about 10 years ago, sparked by pure curiosity &amp;
-                     fun &mdash; never imagining it would shape my career path. Today, I'm learning 
+                <div class="about-txt">
+                    <h2>About me</h2>
+                    <p>My journey with computers began about 10 years ago, sparked by pure curiosity &amp;
+                    fun &mdash; never imagining it would shape my career path. Today, I'm learning 
                     programming with the goal of becoming a <strong>professional web developer</strong>. 
                     I always try to <em>improve myself</em> every day, and I <mark>learning solving problems</mark>.</p>
+                </div>
             </section>
             <hr>
 
@@ -157,7 +162,7 @@
                 <p>Resume: <a href="assets/resume.pdf" download="">Download Resume&nbsp;&nbsp;&darr;</a></p>
             </section>
             <hr>
-
+            <p class="secret">This will be hidden</p>
         </main>
 
         <footer>
