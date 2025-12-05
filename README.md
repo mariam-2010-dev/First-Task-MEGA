@@ -36,7 +36,7 @@ Using `<ul>` would only list items without distinguishing between the skill name
 
 
 ## Live Demo
-[Live Site on GitHub Pages](https://mariam-2010-dev.github.io/my-dream-portfolio/)
+[Live Site on GitHub Pages](https://mariam-2010-dev.github.io/First-Task-MEGA/)
 
 ---
 
@@ -80,4 +80,5 @@ It uses **pure CSS** (no Flexbox, no Grid, no frameworks) to create a colorful, 
 | overflow                 | Sections with long text       | `overflow: hidden;`                   |
 | visibility / display      | Hidden notes / elements      | `display: none;`                       |
 | grouping selectors / nesting | nav ul li a, .home-img img | `.home-img img, header nav a`        |
+
 | clean class names (BEM)   | Sections and elements        | `.home-txt, .about-txt, .home-img`  |
